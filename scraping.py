@@ -1,5 +1,6 @@
 import requests
 import bs4
+#import os
 res =requests.get('https://aravinthvp.github.io')
 type(res)
 res.text()  # it is for page full source code
